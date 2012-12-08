@@ -1,0 +1,4 @@
+F14=close
+F13=!matchbox-remote -input-toggle
+F15=!screenshot
+F16=desktop

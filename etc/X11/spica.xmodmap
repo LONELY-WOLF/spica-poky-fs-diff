@@ -1,0 +1,31 @@
+!	Menu
+keycode 219 = F13
+!	Back (F14)
+keycode 220 = F14
+!	Search
+keycode 234 = F15
+!	Home
+keycode 235 = F16
+!	Call
+keycode 237 = F17
+!	End call
+!keycode 257 = F18 !????
+!	Lock
+!keycode ... = F19 !????
+!	Camera
+!keycode ... = F20 !????
+!	Volume + (F21)
+keycode 209 = F21
+!	Volume - (F22)
+keycode 217 = F22
+!	Pad left
+keycode 226 = Left
+!	Pad right
+keycode 211 = Right
+!	Pad up
+keycode 210 = Up
+!	Pad down
+keycode 218 = Down
+!	Pad center
+keycode 212 = Return
+
