@@ -92,11 +92,6 @@
 	  <shifted display="+" />                
     </key>
 
-    <key fill="true">
-	 <!-- <default display="⌫" action="backspace"/> -->
-         <default display="Bksp" action="backspace"/>
-    </key>
-
     <!--<space width="500" extended="true"/>
 
     <key width="4000"  extended="true">
@@ -307,10 +302,14 @@
 	  <shifted display="?" />
     </key>
 
-
     <key fill="true">
-	  <default display="Shift" action="modifier:shift"/>                
+	 <!-- <default display="⌫" action="backspace"/> -->
+         <default display="←" action="backspace"/>
     </key>
+
+    <!--<key fill="true">
+	  <default display="Shift" action="modifier:shift"/>                
+    </key>-->
 
     <!--<space width="500" extended="true"/>
 
@@ -326,21 +325,19 @@
   <row>
 
     <!--<space width="500" extended="true"/>-->
+	<key fill="true">
+	  <default display="↑" action="modifier:shift"/>                
+    </key>
 
     <key>
-	  <default display="äëö" action="modifier:mod1"/>                
+	  <default display="sym" action="modifier:mod1"/>                
     </key>
 
     <key fill="true">
 	  <default display="Ctrl" action="modifier:ctrl"/>                
     </key>
 
-    <key>
-	  <default display="Alt" action="modifier:alt"/>                
-    </key>
-
-
-    <key width="12000">
+    <key width="5000">
 	  <default display=" " action="space" />                
     </key>
 
@@ -349,6 +346,15 @@
 	  <shifted display="'" />
     </key>
 
+    <key>
+	  <default display="Alt" action="modifier:alt"/>                
+    </key>
+
+	<key fill="true">
+	  <default display="↑" action="modifier:shift"/>                
+    </key>
+
+<!--
     <key>
 	  <default display="↑" action="up" />                
     </key>
@@ -369,7 +375,7 @@
     <space width="4000"  extended="true" />
 
     <space width="500" extended="true"/>
-
+-->
 </row>
 
 </layout>
